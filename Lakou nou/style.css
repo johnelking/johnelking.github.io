@@ -1,0 +1,119 @@
+/***************** GLOBAL CSS************************/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.6rem;
+
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h4,h5{
+    font-size: 2.8rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'anton',sans-serif;
+}
+
+/* HEADER*/
+
+.main-head {
+    background:  rgb(14, 51, 2);;
+    color: cornsilk;
+}
+
+nav {
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem; 
+    flex-wrap: wrap;    
+}
+
+nav ul {
+    display: flex;
+    flex: 3 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+#logo {
+    flex: 2 1 40rem;
+    font-family: Papyrus;
+    font-size: 3.2rem;
+}
+
+/********************* HERO **************************/
+
+.hero{
+    min-height: 95vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.5), transparent), url("images/images\ principale.jpg") fixed;
+    background-size: cover;
+    color: ivory;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero h3{
+    padding: 3.7rem;
+}
+
+button {
+    padding: 1rem 4rem;
+    background-color: rgb(14, 51, 2);
+    color: whitesmoke;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+
+}
+strong {
+    font-family: Papyrus;
+    color: rgb(129, 190, 7);
+}
+
+@media screen and (max-width: 885px) {
+
+    html {
+        font-size: 45%;
+    }
+    nav{
+        text-align: center;
+    }
+    #logo{
+        padding: 2rem;
+    }
